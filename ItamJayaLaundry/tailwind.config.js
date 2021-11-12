@@ -5,17 +5,29 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    backgroundColor: theme => ({
-      'primary': '#30E9A6',
-      'secondary': '#ffed4a',
-      'danger': '#e3342f',
-      'form': '#C6C6C6',
-     }),
+    // backgroundColor: theme => ({
+    //   'primary': '#30E9A6',
+    //   'secondary': '#ffed4a',
+    //   'danger': '#e3342f',
+    //   'form': '#C6C6C6',
+    //   'white':'#fff',
+    //  }),
     extend: {
       fontFamily: {
         viga: ['Viga'],
         body: ['Work Sans'],
       },
+      colors: {
+        'primary':'#30E9A6',
+        'primary-100':'#6CFFCA',
+      },
+      backgroundColor: {
+        'primary': '#30E9A6',
+        'secondary': '#ffed4a',
+        'danger': '#e3342f',
+        'form': '#C6C6C6',
+        'white':'#fff',
+      }
     },
   },
   variants: {
