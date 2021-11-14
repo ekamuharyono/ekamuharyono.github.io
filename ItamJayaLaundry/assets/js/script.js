@@ -7,6 +7,7 @@ function handleMenu(){
   menuButton[1].classList.toggle('hidden');
   mobileNav.classList.toggle('ml-96');
   mobileNav.classList.toggle('hidden');
+  // mobileNav.classList.toggle('');
 }
 
 menu.onclick = handleMenu;

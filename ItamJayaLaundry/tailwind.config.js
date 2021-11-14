@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         'primary':'#30E9A6',
         'primary-100':'#6CFFCA',
+        'blue-custom':'#0066FF',
       },
       backgroundColor: {
         'primary': '#30E9A6',
