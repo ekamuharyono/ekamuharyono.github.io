@@ -9,16 +9,25 @@
   <title>Home | Itam Jaya Laundry</title>
 </head>
 <body>
-  <nav id="navbar" class="container px-4 h-20 bg-primary shadow-sm flex items-center justify-between">
-    <div id="brand" class="ml-3">
+  <nav id="navbar" class="w-screen px-9 md:px-20 h-20 bg-primary shadow-sm flex items-center justify-between">
+    <div id="brand">
       <a href="index.html"><h1 class="font-viga font-bold drop-shadow text-white text-2xl">ITAM JAYA LAUNDRY</h1></a>
     </div>
-    <div id="menu" class="mr-3 mt-2">
+    <div id="menu" class="mt-2 md:mt-0">
+      <!-- DESKTOP NAV -->
+      <a id="nav-link" href="index.html" class="text-white mx-3 font-bold border-b-2 border-primary hover:border-gray-100 transition duration-300">HOME</a>
+      <a id="nav-link" href="index.html" class="text-white mx-3 font-bold border-b-2 border-primary hover:border-gray-100 transition duration-300">ABOUT</a>
+      <a id="nav-link" href="login.html" class="text-white mx-3 font-bold border-b-2 border-primary hover:border-gray-100 transition duration-300">LOGIN</a>
+      <button id="nav-link" class="bg-white mx-3 py-2 px-6 rounded-full text-primary font-body font-bold text-xl shadow-sm hover:shadow-xl transition duration-300">
+        <a class="text-center" href="#">REGISTER</a>
+      </button>
+      <!-- humberger icon -->
       <button id="menu-button">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white" id="menu-icon" viewBox="0 0 20 20" fill="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white md:hidden" id="menu-icon" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
         </svg>
       </button>
+      <!-- silang icon -->
       <button id="menu-button">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white float hidden" id="menu-icon" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -38,7 +47,7 @@
       </svg><p class="ml-10">ABOUT</p></a>
     </button>
     <button class="w-11/12 h-14 bg-white float-right mt-4 rounded-l-full text-primary font-body font-bold text-xl">
-      <a class="flex items-center relative" href="login.html"><svg xmlns="http://www.w3.org/2000/svg" class="ml-10 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <a class="flex items-center relative" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" class="ml-10 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
       </svg><p class="ml-10">LOGIN</p></a>
     </button>

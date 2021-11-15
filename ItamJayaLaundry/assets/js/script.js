@@ -1,4 +1,4 @@
-const menu = document.getElementById('menu');
+const menu = document.querySelectorAll('#menu-button');
 const menuButton = document.querySelectorAll('#menu-icon');
 const mobileNav = document.getElementById('mobile-nav');
 
@@ -10,4 +10,5 @@ function handleMenu(){
   // mobileNav.classList.toggle('');
 }
 
-menu.onclick = handleMenu;
+menu[0].onclick = handleMenu;
+menu[1].onclick = handleMenu;
